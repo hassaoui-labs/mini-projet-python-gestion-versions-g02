@@ -1,4 +1,5 @@
 Mini VCS — Système de gestion de versions en Python
+
 Mini VCS est une implémentation pédagogique d’un système de contrôle de version inspiré de Git. Le projet permet de comprendre concrètement le fonctionnement des commits, branches et fusions en manipulant un dépôt local via une interface en ligne de commande.
 
 Objectif du projet
@@ -22,16 +23,20 @@ Fonctionnalités principales
 3. Création de commits identifiés par hash
 
 4. Création et changement de branches.
+5. Fusion de branches avec détection de conflits
+6. Affichage de l’historique et du graphe des versions
+
 
 Installation
 
-1. Cloner le projet::             git clone <url-du-repo>    cd mini-vcs       
-2. Installer les dépendances::    pip install colorama
-3. Lancer le programme:          python main.py
+    1. Cloner le projet::             git clone <url-du-repo>    cd mini-vcs       
+    2. Installer les dépendances::    pip install colorama
+    3. Lancer le programme:          python main.py
 
 Utilisation rapide
 
 Exemple de workflow: 
+                    
                     init
                     add fichier.py
                     commit "Premier commit"
@@ -69,6 +74,3 @@ Auteurs
 
 
 
-Fusion de branches avec détection de conflits
-
-Affichage de l’historique et du graphe des versions
