@@ -62,12 +62,13 @@ Structure du projet
 Documentation technique
 
 La documentation détaillée expliquant l’architecture interne et les algorithmes est disponible dans le dossier :docs/
-Auteurs
-      1. LAMAMRA Soraya
-      2. BRAHIMI Leyas
-      3. Bessaoudi Sabrina
-      4. AMIR Ouassila
 
+        Auteurs
+              1. LAMAMRA Soraya
+              2. BRAHIMI Leyas
+              3. Bessaoudi Sabrina
+              4. AMIR Ouassila
+        
 
 
 
