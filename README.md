@@ -1,31 +1,71 @@
-# mini-projet-python-gestion-versions-g02
-🎯 Objectifs pédagogiques
-- Comprendre les mécanismes internes de la gestion de versions
-- Maîtriser les concepts de commit, branch, merge
-- Simuler le fonctionnement d’un VCS
+          Mini VCS — Système de gestion de versions en Python
+Mini VCS est une implémentation pédagogique d’un système de contrôle de version inspiré de Git. Le projet permet de comprendre concrètement le fonctionnement des commits, branches et fusions en manipulant un dépôt local via une interface en ligne de commande.
+          Objectif du projet
 
-🧩 Description : Concevoir un mini-système de gestion de versions pour projets Python, inspiré de Git, permettant de suivre l’évolution du code et de gérer les branches.
+Ce projet a pour but de :
 
-⚙️ Fonctionnalités attendues
-- Initialisation de dépôt
-- Gestion des commits
-- Branches et fusion
-- Historique des versions
-- Simulation de conflits
+* Illustrer les mécanismes internes d’un VCS
 
-🛠️ Technologies
-- Python
-- Git
-- GitHub
+* Manipuler les concepts de commit, branch et merge
 
-👥 Répartition du travail
-- Membre 1 : gestion des versions
-- Membre 2 : branches et fusion
-- Membre 3 : interface CLI
-- Membre 4 : documentation
+* Visualiser l’historique des versions d’un projet
 
-📦 Livrables
-     - Dépôt GitHub structuré (Code source versionné)
-     - Wiki Documentation projet 
-     - Rapport technique PDF
-     - Journal de commits
+* Comprendre le rôle du HEAD et du staging area
+
+     Fonctionnalités principales
+
+1. Initialisation d’un dépôt local
+
+2. Ajout de fichiers dans une zone de staging
+
+3. Création de commits identifiés par hash
+
+4. Création et changement de branches.
+
+          Installation
+
+1. Cloner le projet: git clone <url-du-repo>    cd mini-vcs       
+2. Installer les dépendances: pip install colorama
+3. Lancer le programme: python main.py
+
+         Utilisation rapide
+
+Exemple de workflow: 
+init
+add fichier.py
+commit "Premier commit"
+branch create dev
+branch switch dev
+add fichier.py
+commit "Modification"
+branch switch main
+merge dev
+log
+
+          Structure du projet
+mini-vcs/
+│── main.py # Point d’entrée                             # Point d’entrée 
+│── core.py # Gestion des commits et du staging          # Gestion des commits et du staging
+│── branches.py # Gestion des branches et merges         # Gestion des branches et merges
+│── cli.py # Interface utilisateur                       # Interface utilisateur
+│── build.py # Création exécutable                       # Création exécutable
+│── .mini_vcs/ # Données du dépôt (créé après init)      # Données du dépôt (créé après init)
+
+       Documentation technique
+La documentation détaillée expliquant l’architecture interne et les algorithmes est disponible dans le dossier :docs/
+
+      Auteurs
+      1. LAMAMRA Soraya
+      2. BRAHIMI Leyas
+      3. Bessaoudi Sabrina
+      4. AMIR Ouassila
+
+
+
+
+
+
+
+Fusion de branches avec détection de conflits
+
+Affichage de l’historique et du graphe des versions
