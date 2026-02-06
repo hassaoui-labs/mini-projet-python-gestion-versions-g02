@@ -65,7 +65,7 @@ La documentation détaillée expliquant l’architecture interne et les algorith
 
         Auteurs
               1. LAMAMRA Soraya
-              2. BRAHIMI Leyas
+              2. BRAHAMI Lyes
               3. Bessaoudi Sabrina
               4. AMIR Ouassila
         
