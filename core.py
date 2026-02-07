@@ -165,3 +165,4 @@ class VersionControl:
         config = self._load_json(self.config_file)
         config['head'] = branch_name
         self._save_json(self.config_file, config)
+
